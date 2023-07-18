@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Le Frata" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Le Frata" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c99" />
+					<Add option="-g" />
+					<Add directory="PDCurses" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="PDCurses" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="PDCurses" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Le Frata" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="PDCurses" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="PDCurses" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="PDCurses" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="PDCurses/common/acs437.h" />
+		<Unit filename="PDCurses/common/acsgr.h" />
+		<Unit filename="PDCurses/common/acsuni.h" />
+		<Unit filename="PDCurses/common/font437.h" />
+		<Unit filename="PDCurses/common/iconbmp.h" />
+		<Unit filename="PDCurses/common/pdcurses.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="PDCurses/curses.h" />
+		<Unit filename="PDCurses/curspriv.h" />
+		<Unit filename="PDCurses/demos/ncurses_cfg.h" />
+		<Unit filename="PDCurses/demos/tui.h" />
+		<Unit filename="PDCurses/panel.h" />
+		<Unit filename="PDCurses/pdcurses/addch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/addchstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/addstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/beep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/bkgd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/border.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/clear.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/color.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/delch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/deleteln.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/getch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/getstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/getyx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/inch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/inchstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/initscr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/inopts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/insch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/insstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/instr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/kernel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/keyname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/outopts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/overlay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/pad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/panel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/printw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/refresh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/scanw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/scr_dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/scroll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/slk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/termattr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/touch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/pdcurses/window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcclip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcdisp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcgetsc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdckbd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcscrn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcsetsc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PDCurses/wincon/pdcwin.h" />
+		<Unit filename="draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="draw.h" />
+		<Unit filename="fcurses.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fcurses.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="score.h" />
+		<Unit filename="screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="screen.h" />
+		<Unit filename="types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="types.h" />
+		<Unit filename="update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="update.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

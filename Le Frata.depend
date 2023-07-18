@@ -1,0 +1,272 @@
+# depslib dependency file v1.0
+1689660698 source:e:\le frata\draw.c
+	<curses.h>
+	"fcurses.h"
+	"draw.h"
+	"types.h"
+
+1642209066 e:\le frata\pdcurses\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1689659982 e:\le frata\fcurses.h
+	<curses.h>
+
+1689660766 e:\le frata\draw.h
+	"types.h"
+
+1689660446 e:\le frata\types.h
+	<stdio.h>
+	<time.h>
+
+1689660020 source:e:\le frata\fcurses.c
+	<curses.h>
+	"fcurses.h"
+
+1689661244 source:e:\le frata\main.c
+	<curses.h>
+	"fcurses.h"
+	"score.h"
+	"screen.h"
+	"types.h"
+	"update.h"
+
+1689660770 e:\le frata\score.h
+	"types.h"
+
+1689660248 e:\le frata\screen.h
+	"types.h"
+
+1689660346 e:\le frata\update.h
+	"types.h"
+
+1642209066 source:e:\le frata\pdcurses\common\pdcurses.rc
+	<windows.h>
+	"../curses.h"
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\addch.c
+	<curspriv.h>
+
+1642209066 e:\le frata\pdcurses\curspriv.h
+	<curses.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\addchstr.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\addstr.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\attr.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\beep.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\bkgd.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\border.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\clear.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\color.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\debug.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<time.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\delch.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\deleteln.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\getch.c
+	<curspriv.h>
+	<stdlib.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\getstr.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\getyx.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\inch.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\inchstr.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\initscr.c
+	<curspriv.h>
+	<stdlib.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\inopts.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\insch.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\insstr.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\instr.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\kernel.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\keyname.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\mouse.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\move.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\outopts.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\overlay.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\pad.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\panel.c
+	<curspriv.h>
+	<panel.h>
+	<stdlib.h>
+
+1642209066 e:\le frata\pdcurses\panel.h
+	<curses.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\printw.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\refresh.c
+	<curspriv.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\scanw.c
+	<curspriv.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<limits.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\scr_dump.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\scroll.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\slk.c
+	<curspriv.h>
+	<stdlib.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\termattr.c
+	<curspriv.h>
+	<string.h>
+	<limits.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\touch.c
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\util.c
+	<curspriv.h>
+	<stdlib.h>
+	<string.h>
+
+1642209066 source:e:\le frata\pdcurses\pdcurses\window.c
+	<curspriv.h>
+	<stdlib.h>
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcclip.c
+	"pdcwin.h"
+	<string.h>
+
+1642209066 e:\le frata\pdcurses\wincon\pdcwin.h
+	<windows.h>
+	<curspriv.h>
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcdisp.c
+	"pdcwin.h"
+	<stdlib.h>
+	<string.h>
+	"../common/acsuni.h"
+	"../common/acs437.h"
+
+1642209066 e:\le frata\pdcurses\common\acsuni.h
+
+1642209066 e:\le frata\pdcurses\common\acs437.h
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcgetsc.c
+	"pdcwin.h"
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdckbd.c
+	"pdcwin.h"
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcscrn.c
+	"pdcwin.h"
+	<stdlib.h>
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcsetsc.c
+	"pdcwin.h"
+
+1642209066 source:e:\le frata\pdcurses\wincon\pdcutil.c
+	"pdcwin.h"
+
+1689660214 source:e:\le frata\score.c
+	<stdlib.h>
+	"score.h"
+	"types.h"
+
+1689660928 source:e:\le frata\screen.c
+	<curses.h>
+	"draw.h"
+	"fcurses.h"
+	"score.h"
+	"screen.h"
+	"types.h"
+	"update.h"
+
+1689660802 source:e:\le frata\types.c
+	<stdlib.h>
+	<time.h>
+	"draw.h"
+	"types.h"
+
+1689661474 source:e:\le frata\update.c
+	<stdlib.h>
+	<stdbool.h>
+	<curses.h>
+	"draw.h"
+	"fcurses.h"
+	"screen.h"
+	"types.h"
+	"update.h"
+
