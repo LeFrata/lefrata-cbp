@@ -1,3 +1,11 @@
+/* 
+ * Desenvolvedores:
+ *  Alexandre Boutrik (@alexandreboutrik)
+ *  Maria Fernanda de Bastiani (@MariaFernandadb)
+ *  Giulia Rheinheimer (@Tchiulia)
+ *  Larissa Machado (@Iarissamachado)
+ */
+
 #include <curses.h>
 
 #include "fcurses.h"
